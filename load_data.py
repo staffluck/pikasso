@@ -1,5 +1,6 @@
 import csv
 
+
 def main():
     file_path = "police_data.csv"
     with open(file_path, "r", newline="") as f:
