@@ -6,7 +6,8 @@
 git clone https://github.com/staffluck/pikasso.git
 <venv> pip install -r requirements.txt
 python manage.py migrate
-python manage.py load_report_data
+< Скачать и положить файл-импорт в корень проекта >
+python manage.py load_report_data <название файла>
 python manage.py runserver 5000
 ```
 
