@@ -2,3 +2,4 @@
 Pipfile
 Pipfile.lock
 police_data.csv
+db.sqlite3

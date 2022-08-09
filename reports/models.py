@@ -13,6 +13,7 @@ class Report(models.Model):
     call_datetime = models.DateTimeField()
     disposition = models.CharField(max_length=255)
     address = models.CharField(max_length=255)
+    city = models.CharField(max_length=255)
     state = models.CharField(max_length=2)
     agency_id = models.IntegerField()
     address_type = models.CharField(max_length=255)
